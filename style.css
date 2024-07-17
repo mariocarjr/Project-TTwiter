@@ -1,0 +1,13 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+
+.cabecalho {
+    background-color:#14161D;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
