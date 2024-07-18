@@ -9,18 +9,34 @@
     background-color:#14161D;
     color: #fff;
     padding: 26px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
 
 .apresentacao {
     padding: 80px;
 
 }
 
+header nav a {
+    margin-left: 16px;
+}
+
+header nav a button {
+    padding: 5px 16px;
+}
+
 
 .titulo {
    padding-bottom: 10px;
-   font-size: 40px;
+   font-size: 2.5rem;
 }
 
 .subtitulo {
