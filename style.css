@@ -5,9 +5,31 @@
 }
 
 
-.cabecalho {
+.menu {
     background-color:#14161D;
     color: #fff;
-    padding: 10px;
-    text-align: center;
+    padding: 26px 60px;
+}
+
+
+.apresentacao {
+    padding: 80px;
+
+}
+
+
+.titulo {
+   padding-bottom: 10px;
+   font-size: 40px;
+}
+
+.subtitulo {
+    font-size: 30px;
+  
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
 }
