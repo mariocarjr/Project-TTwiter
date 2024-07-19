@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body {
+    background-color: #181B24;
+    color: #fff;
+    overflow-x: hidden;
+}
+
 .menu {
     background-color:#14161D;
     color: #fff;
@@ -25,16 +31,22 @@
     height: auto; 
 }
 
-.apresentacao {
-    padding: 80px;
-}
-
 header nav a {
     margin-left: 16px;
 }
 
 header nav a button {
     padding: 5px 16px;
+}
+
+.apresentacao {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+
 }
 
 .titulo {
@@ -50,4 +62,53 @@ header nav a button {
     font-size: 20px;
     font-weight: 500;
     padding: 20px 0;
+}
+
+.beneficios {
+    margin: 0 88px;
+}
+
+.beneficios h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beneficios h2::after {
+    content: "";
+    width: 71px; 
+    height: 12px; 
+    background: #fff; 
+    border-radius: 17px;
+    display: block; 
+}
+
+.beneficios .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.beneficios .row h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.beneficios .row h3::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    display: inline-block;
+    align-items: center;
+    gap: 20px;
+    border-radius: 100000px;
+}
+
+.beneficios .row p {
+    max-width: 595px;
+    font-size: 1rem;
 }
