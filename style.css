@@ -99,7 +99,7 @@ header nav a button {
     margin-bottom: 24px;
 }
 
-.beneficios .row h3::before {
+.beneficios .row h3::before{    
     content: "";
     width: 13px;
     height: 13px;
@@ -115,3 +115,25 @@ header nav a button {
     max-width: 450px;
     font-size: 1rem;
 }
+
+.row.second {
+    text-align: end;
+}
+
+.row.second h3::before {
+    width: 0;
+}
+.row.second h3::after {
+        content: "";
+        width: 13px;
+        height: 13px;
+        background: #fff;
+        display: inline-block;
+        align-items: center;
+        gap: 20px;
+        border-radius: 100000px;
+        margin-left: 10px;
+    }
+
+
+ 
