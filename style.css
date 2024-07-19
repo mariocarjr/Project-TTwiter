@@ -70,7 +70,7 @@ header nav a button {
     margin: 0 88px;
 }
 
-.beneficios h2 {
+.beneficios h2, .comunidade h2 {
     font-size: 2.5rem;
     font-weight: 700;
     display: flex;
@@ -78,7 +78,7 @@ header nav a button {
     align-items: center;
 }
 
-.beneficios h2::after {
+.beneficios h2::after, .comunidade h2::after {
     content: "";
     width: 71px; 
     height: 12px; 
@@ -133,7 +133,15 @@ header nav a button {
         gap: 20px;
         border-radius: 100000px;
         margin-left: 10px;
-    }
+}
+
+.comunidade{
+    margin: 0 80px;
+}
+
+.comunidade h2 {
+    margin-top: 1rem;
+}
 
 
  
