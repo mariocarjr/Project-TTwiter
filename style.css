@@ -18,6 +18,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .logo {
     display: flex;
     gap: 12px;
@@ -106,9 +108,10 @@ header nav a button {
     align-items: center;
     gap: 20px;
     border-radius: 100000px;
+    margin-right: 10px;
 }
 
 .beneficios .row p {
-    max-width: 595px;
+    max-width: 450px;
     font-size: 1rem;
 }
