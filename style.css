@@ -113,26 +113,15 @@ header nav a button {
 
 .beneficios .row p {
     max-width: 450px;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .row.second {
     text-align: end;
 }
 
-.row.second h3::before {
+.beneficios.row.second h3::before {
     width: 0;
-}
-.row.second h3::after {
-        content: "";
-        width: 13px;
-        height: 13px;
-        background: #fff;
-        display: inline-block;
-        align-items: center;
-        gap: 20px;
-        border-radius: 100000px;
-        margin-left: 10px;
 }
 
 .comunidade{
@@ -141,7 +130,44 @@ header nav a button {
 
 .comunidade h2 {
     margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.comunidade .row {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    margin: 0 0 80px;
 }
 
 
+.comunidade .row .estatistica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comunidade .row .qntd {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.comunidade .row .qntd-footer {
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.comunidade .row .qntd-footer img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.comunidade .detail {
+    height: 65px;
+    width: 1px;
+    background: #fff;
+
+}
  
