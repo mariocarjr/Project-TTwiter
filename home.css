@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181B24;
+    color: #fff;
+}
+
+header {
+    background-color: #14161D;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    max-width: 1200px;
+    padding: 0 20px;
+
+}
+
+.logo img {
+    width: 60px;
+    height: 62px;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 5px;
+    width: 670px;
+    margin-left: 250px;
+}
+
+.buscar input {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.buscar input::placeholder {
+    color: #bbb;
+}
+
+.buscar button {
+    display: flex;
+    border: none;
+    background: none;
+    padding: 0 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscar button img {
+    height: 20px;
+}
