@@ -1,51 +1,68 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #181b24;
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     margin: 0;
 }
 
 .container {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
-.logo img {
-    width: 293px;
-    height: 304px;
-    margin-bottom: 20px;
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 254px;
 }
 
 .login {
     background-color: #ffffff;
     color: #000;
-    height: 547px;
-    width: auto;	
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 547px;
+    height: auto;
 }
 
 .login h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.login label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-.login input [type="email"], 
-.login input [type="password"] {
+.form-group {
+    position: relative;
+    margin: 20px 0;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
+    text-align: left;
+}
+
+.floating-label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: #ffffff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.floating-input {
+    width: calc(100% - 22px); 
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
     border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .password {
@@ -54,16 +71,48 @@ body {
 
 .show-password {
     position: absolute;
-    right: 10px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-}	
+}    
 
 .forgot-password {
     display: block;
-    margin-bottom: 20px;
-    color: #00aaff;
+    margin-bottom: 40px;
+    color: #105F74;
     text-decoration: none;
+    margin-left: 350px;
 }
 
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #105f74;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.login .register {
+    background-color: #ffffff;
+    color: #105f74;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.termos {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+.termos a {
+    color: #00aaff;
+    text-decoration: underline;
+}
