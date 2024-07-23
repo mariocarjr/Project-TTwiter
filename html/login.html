@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>TTwitter</title>
+    <link rel="icon" href="./TTlogo_v2.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./TTlogo_v2.png" alt="TTwitter Logo">
+        </div>
+        <div class="login">
+            <h2>Bem vindo a plataforma TTwitter</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email" class="floating-label">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" class="floating-input">
+                </div>
+                <div class="form-group password">
+                    <label for="password" class="floating-label">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="• • • • • • • • •" class="floating-input">
+                    <div class="show-password">
+                        <img src="./Visibility.png" alt="Mostrar Senha">
+                    </div>
+                </div>
+                <a href="#" class="forgot-password">Esqueci minha senha</a>
+                <button type="submit">Entrar</button>
+                <button type="button" class="register">Registrar</button>
+                <div class="termos">
+                    <input type="hidden" id="termos" name="termos">
+                    <label for="termos">Li e estou de acordo com os <a href="#">Termos & Condições de uso</a>.</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
